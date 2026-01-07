@@ -129,3 +129,36 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Legal content prose styles */
+.legal-content h2 {
+  @apply text-xl font-semibold text-foreground mt-8 mb-4 pb-2 border-b;
+}
+
+.legal-content h3 {
+  @apply text-lg font-medium text-foreground mt-6 mb-3;
+}
+
+.legal-content p {
+  @apply text-muted-foreground leading-relaxed mb-4;
+}
+
+.legal-content ul {
+  @apply list-disc list-inside space-y-2 mb-4 text-muted-foreground;
+}
+
+.legal-content ul li {
+  @apply leading-relaxed;
+}
+
+.legal-content a {
+  @apply text-primary underline underline-offset-2 hover:text-primary/80 transition-colors;
+}
+
+.legal-content section {
+  @apply mb-8;
+}
+
+.legal-content strong {
+  @apply font-semibold text-foreground;
+}
