@@ -305,12 +305,12 @@ npx prisma studio
 ```
 
 **Checklist :**
-- [ ] Prisma installé
-- [ ] Schéma créé avec tous les modèles
-- [ ] DATABASE_URL configurée
-- [ ] Tables créées dans PostgreSQL
-- [ ] Prisma Studio accessible
-- [ ] Client Prisma généré
+- [x] Prisma installé
+- [x] Schéma créé avec tous les modèles
+- [x] DATABASE_URL configurée
+- [x] Tables créées dans PostgreSQL
+- [x] Prisma Studio accessible
+- [x] Client Prisma généré
 
 ### 📝 COMMIT
 
@@ -387,13 +387,13 @@ npm run dev
 ```
 
 **Checklist :**
-- [ ] NextAuth installé et configuré
-- [ ] Pages login/register accessibles
-- [ ] Inscription fonctionne (utilisateur créé en BDD)
-- [ ] Connexion fonctionne (session active)
-- [ ] Déconnexion fonctionne
-- [ ] Middleware protège les routes privées
-- [ ] Hash des passwords (vérifier en BDD)
+- [x] NextAuth installé et configuré
+- [x] Pages login/register accessibles
+- [x] Inscription fonctionne (utilisateur créé en BDD)
+- [x] Connexion fonctionne (session active)
+- [x] Déconnexion fonctionne
+- [x] Middleware protège les routes privées
+- [x] Hash des passwords (vérifier en BDD)
 
 ### 📝 COMMIT
 
@@ -598,14 +598,14 @@ npm run dev
 ```
 
 **Checklist :**
-- [ ] Toutes les sections présentes
-- [ ] Responsive (mobile, tablet, desktop)
-- [ ] Images placeholders (à remplacer)
-- [ ] CTA fonctionnels (liens actifs)
-- [ ] Carousel témoignages fonctionne
-- [ ] FAQ accordion fonctionne
-- [ ] Animations de scroll
-- [ ] Performance : LCP < 2.5s
+- [x] Toutes les sections présentes
+- [x] Responsive (mobile, tablet, desktop)
+- [x] Images placeholders (à remplacer)
+- [x] CTA fonctionnels (liens actifs)
+- [x] Carousel témoignages fonctionne
+- [x] FAQ accordion fonctionne
+- [x] Animations de scroll
+- [x] Performance : LCP < 2.5s
 
 ### 📝 COMMIT
 

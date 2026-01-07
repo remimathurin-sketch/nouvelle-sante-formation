@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { WhatsAppButton } from '@/components/ui/WhatsAppButton'
 import { SessionProvider } from '@/components/providers/SessionProvider'
 
 const inter = Inter({
@@ -49,6 +50,7 @@ export default function RootLayout({
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
+            <WhatsAppButton phoneNumber="33XXXXXXXXX" />
           </div>
         </SessionProvider>
       </body>
