@@ -134,6 +134,7 @@ model Module {
   id          String   @id @default(cuid())
   title       String
   description String?  @db.Text
+  emoji       String?  // Emoji icon for the module
   order       Int
   unlockDelay Int      @default(0) // Days after enrollment before module unlocks
   createdAt   DateTime @default(now())
